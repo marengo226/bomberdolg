@@ -195,3 +195,15 @@ for _ in track(range(run)):
                  print('topcredit.ua')
          except:
                  print('Не доставлено (topcredit.ua)')
+def main():
+    while True:
+        user_input = input("для выхода введите 'exit'): ")
+        if user_input.lower() == 'exit':
+            print("Выход из программы.")
+            exit()
+        else:
+            print("Вы ввели:", user_input)
+
+if __name__ == "__main__":
+    main()
+
